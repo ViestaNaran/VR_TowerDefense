@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1860467729049072}
+  m_IsPrefabAsset: 1
+--- !u!1 &1860467729049072
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4531932740352502}
+  - component: {fileID: 114623903217925466}
+  - component: {fileID: 114898373756830064}
+  m_Layer: 0
+  m_Name: Overlord
+  m_TagString: Overlord
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &4531932740352502
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1860467729049072}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114623903217925466
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1860467729049072}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 432d129362323cb4d9ddcdc67967ae91, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  printList: 0
+  whichPathToTest: 0
+  spawner: {fileID: 1660142904681312, guid: e948d99d6b29c364393f5382f6023d29, type: 2}
+  test: 0
+  spawnNextWave: 0
+  knight: {fileID: 1835083521099620, guid: 165df88e0b3301140b07b0d26af4c18c, type: 2}
+  archer: {fileID: 1861560617656914, guid: 5e0deb5e39c2e3b4e9ded2c285e26fd3, type: 2}
+  mage: {fileID: 1955882942978132, guid: 08496221e1a3359468017557391ffb35, type: 2}
+  maxResistPoints: 60
+  path1: {fileID: 0}
+  path2: {fileID: 0}
+  path3: {fileID: 0}
+  waveSize: 10
+  minionsCount: 0
+  timeBetweenWaves: 5
+  WaveCountDown: 0
+  waveNumber: 0
+--- !u!114 &114898373756830064
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1860467729049072}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d425c76f6457d0741920bf9a58cc5d8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawner: {fileID: 1660142904681312, guid: e948d99d6b29c364393f5382f6023d29, type: 2}
+  delayBetweenMinions: 1
+  countDown: 0
+  minionsToSpawn: 10
+  isSpawning: 0

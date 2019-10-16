@@ -12,7 +12,8 @@ I developed the code alongside Benjamin and later Mads, who made sweeping change
 Mads and Benjamin were a step ahead of me and as such they have the credit for the code structure.
 
 The demands for this project was simply that we implented an IT system, and we decided that we would like to develop a game.
-It just so happend that our university had bought equipment to develop in VR that noone was using and so we took up the challange.
+It just so happend that our university had bought equipment to develop in VR that no one was using and so we took up the challange.
+This was our first attempt at anything in VR.
 
 The idea was to create a Tower Defense game that dindt just send waves against the player, but would actively collect information on the 
 players Towers and then alter the type of enemies that would storm the castle. 

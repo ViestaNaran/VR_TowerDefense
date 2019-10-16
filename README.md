@@ -4,7 +4,7 @@ My role in this project was as a creative lead and developer.
 
 The project is a prototype Tower Defense game, in virtual reality.
 
-The Code can be found in TowerDefense -> Assets -> Scripts
+The Code can be found in Tower Defense Game -> Assets -> Scripts
 
 A Tower Defense game is characterized by a game, wherein the player defends an object, usually a castle of some sort, against waves
 of enemies that storm the castle. The player defends the castle by building structures that fire at the enemies. The enemies get stronger
